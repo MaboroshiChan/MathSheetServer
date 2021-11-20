@@ -1,0 +1,19 @@
+{
+  "name": "mathsheetserver",
+  "version": "1.0.0",
+  "description": "Backend server for math sheet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaboroshiChan/MathSheetServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaboroshiChan/MathSheetServer/issues"
+  },
+  "homepage": "https://github.com/MaboroshiChan/MathSheetServer#readme"
+}
