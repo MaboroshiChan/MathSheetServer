@@ -1,0 +1,14 @@
+{
+    "equation": "x ^ 2 - 6 * x + 8 = 0",
+    "solution": [
+        {
+            "subgoal": "",
+            "by": ""
+        },
+        {
+            "subgoal": "",
+            "by": ""
+        }
+    ],
+    "answer": [2, 4]
+}
