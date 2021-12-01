@@ -1,4 +1,5 @@
 import * as lean from 'lean-client-js-node';
+import * as fs from 'fs'
 
 
 const transport = new lean.ProcessTransport('/Users/darth_sky/.elan/bin/lean', '.', []);
@@ -20,8 +21,6 @@ const testfile = ''
     + '#check @nat.rec_on\n'
     + '#print "end of file!"\n';
 
-const testFile2 = ''
-    + '#eval '
 
 async function demo(): Promise<any> {
     await server.sync('test.lean', testfile);
@@ -48,4 +47,13 @@ async function main(): Promise<any> {
     process.exit(0);
 }
 
-main().catch((err) => console.log('error:', err));
+const runLean = fs.readFile('./Leantest/test1.lean', 'utf-8', (err, data)=>{
+    if(err){
+        console.log(err);
+        return;
+    }
+    console.log(`data = ${data}`);
+    main().catch((err) => console.log('error: ', err));
+});
+
+
