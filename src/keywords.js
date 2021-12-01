@@ -1,1 +1,0 @@
-const keywords = Set(["simp", "complete_square"]);

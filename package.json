@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MaboroshiChan/MathSheetServer/issues"
   },
-  "homepage": "https://github.com/MaboroshiChan/MathSheetServer#readme"
+  "homepage": "https://github.com/MaboroshiChan/MathSheetServer#readme",
+  "dependencies": {
+    "lean-client-js-node": "^3.0.0"
+  }
 }
